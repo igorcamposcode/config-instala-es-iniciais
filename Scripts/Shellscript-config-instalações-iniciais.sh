@@ -16,6 +16,10 @@ mkdir arquivos-zip
 
  snap install spotify --classic
 
+ echo "Corrigindo erros"
+  
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
   echo "Instalando aplicações flatpak"
 #Instalando edge
  flatpak install flathub com.microsoft.Edge
