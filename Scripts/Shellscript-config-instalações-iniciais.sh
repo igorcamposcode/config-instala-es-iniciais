@@ -18,13 +18,13 @@ mkdir arquivos-zip
 
   echo "Instalando aplicações flatpak"
 
-flatpak install flathub com.microsoft.Edge
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub org.qbittorrent.qBittorrent
-flatpak install flathub org.gnomes.Boxes
-flatpak install flathub com.valvesoftware.Steam
-flatpak install flathub org.libreoffice.LibreOffice
+flatpak install  com.microsoft.Edge
+flatpak install  org.gimp.GIMP
+flatpak install  com.discordapp.Discord
+flatpak install  org.qbittorrent.qBittorrent
+flatpak install  org.gnomes.Boxes
+flatpak install  com.valvesoftware.Steam
+flatpak install  org.libreoffice.LibreOffice
 
  echo "Finalizando a instalação de aplicações flatpak "
 
