@@ -6,3 +6,4 @@
  ### Atualizações! 
 
  Retirando o flathub das instalações flatpak
+  *Re-adicionando  o flathub ao flatpak

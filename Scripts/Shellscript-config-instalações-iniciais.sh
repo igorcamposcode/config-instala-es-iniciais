@@ -17,15 +17,21 @@ mkdir arquivos-zip
  snap install spotify --classic
 
   echo "Instalando aplicações flatpak"
-
-flatpak install  com.microsoft.Edge
-flatpak install  org.gimp.GIMP
-flatpak install  com.discordapp.Discord
-flatpak install  org.qbittorrent.qBittorrent
-flatpak install  org.gnomes.Boxes
-flatpak install  com.valvesoftware.Steam
-flatpak install  org.libreoffice.LibreOffice
-
+#Instalando edge
+ flatpak install flathub com.microsoft.Edge
+#instalando gimp
+ flatpak install flathub org.gimp.GIMP
+#instalando discord
+ flatpak install flathub com.discordapp.Discord
+#instalando torrent
+ flatpak install flathub org.qbittorrent.qBittorrent
+#instalando virtualizadores
+ flatpak install flathub org.gnome.Boxes
+#instalando steam
+ flatpak install flathub com.valvesoftware.Steam
+#instalando pacote office
+ flatpak install flathub org.libreoffice.LibreOffice
+# concluindo instalações
  echo "Finalizando a instalação de aplicações flatpak "
 
   echo "Cadastrando o usuário root"
