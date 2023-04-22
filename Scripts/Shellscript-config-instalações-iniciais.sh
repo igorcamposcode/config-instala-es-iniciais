@@ -16,7 +16,7 @@ mkdir arquivos-zip
 
  snap install spotify --classic
 
- echo "Corrigindo erros"
+ echo "Corrigindo erro  Flatpak"
   
   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
